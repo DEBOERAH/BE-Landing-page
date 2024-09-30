@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+
+    <div class="border border-[#F9DCD1] bg-[#F9DCD1] p-12">
+        <!-- Your content here -->
+
+        <header>
+            <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+                <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                    <a href="https://flowbite.com" class="flex items-center">
+                        <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9"
+                            alt="Flowbite Logo" />
+                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Electro</span>
+                    </a>
+                    <div class="flex items-center lg:order-2">
+                        <a href="#"
+                            class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log
+                            in</a>
+                        <a href="#"
+                            class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Get
+                            started</a>
+                        <button data-collapse-toggle="mobile-menu-2" type="button"
+                            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="mobile-menu-2" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+                        id="mobile-menu-2">
+                        <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Company</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-[#949BA2] border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <main class="">
+            <section class="bg-[#FAF4F1] pt-24 px-24  pb-0 ">
+                <div class="flex flex-row justify-between">
+                    <div class="text-[#FD769B] text-sm font-bold py-3">
+                        <i class="fa-regular fa-star" style="color: #FF3B72;"></i> Top products of the Month
+                        <div class="text-4xl font-bold text-black py-3">
+                            Micropack MPH <br>
+                            Headphone Black
+                        </div>
+                        <div class="text-[#949BA2] text-sm font-bold py-3">
+                            The Micropack Headphone offers a stereo PC headset with<br> volume control,a flexible
+                            arm,adjustable headband.
+
+                        </div>
+
+                        <div>
+                            <button class=" bg-[#3074F0] text-white font-bold py-3 px-6 rounded">Shop now </button>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" mr-16">
+                        <img src="./Images/headphone.png" alt="head set image" width="250px">
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section class="bg-[#FFFFFF] px-24 py-20">
+                <div>
+                    <div class="flex justify-between">
+                        <div class="text-2xl font-bold text-[#222429]"> Browse by category</div>
+
+                        <div class="mb-4">
+                            <button class="  text-black py-3 px-3 rounded"> <i class="fa-solid fa-arrow-left"></i>
+                            </button>
+                            <button class=" bg-[#3074F0] text-white  p-3 rounded">
+                                <i class="fa-solid fa-arrow-right"></i> </button>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="grid grid-cols-6 gap-4">
+                        <div class="bg-[#FAF4F1] p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8j5dDVfcC3MNJ4lxN-RhLeP0CHnPftsfDZw&s"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">Laptop</h6>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-[#FAF4F1]   p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="https://i5.walmartimages.com/seo/Apple-iPhone-X-64GB-Unlocked-GSM-Phone-w-Dual-12MP-Camera-Space-Gray-B-Grade-Used_15c2b968-bb85-41a4-9292-b017f78fe797.a66ebbf32b6d53b6d6eb14c47434ac04.jpeg"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">phone</h6>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-[#FAF4F1]   p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="https://www-konga-com-res.cloudinary.com/f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/S/m/Smart-Watch---Black-5388143_3.jpg"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">Watch</h6>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-[#FAF4F1]  p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="https://www-konga-com-res.cloudinary.com/f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/K/Z/70660_1529665460.jpg"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">camera</h6>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-[#FAF4F1]  p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="https://www.borofone.com/wp-content/uploads/2022/04/borofone-bo12-power-bt-headset-headphones.jpg"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">Head Phone</h6>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-[#FAF4F1]   p-3 flex w-40  rounded-lg ">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg"
+                                    src="data:image/jpeg;base64,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"
+                                    alt="">
+                                <h6 class="text-[#9BA1A9] font-light">Video game</h6>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div>
+                    <div class="flex justify-between py-10">
+                        <div class="text-2xl font-bold text-[#222429]"> Featured Products</div>
+
+                        <div class="">
+                            <div>
+                                <button class=" bg-[#3074F0] text-white font-bold py-3 px-6 rounded">view all products
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="grid grid-cols-4 gap-4">
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbHbha7EVercMJyqIAta9jFcSHl13DXay3w&s"
+                                        alt="">
+                                    <div class="flex justify-between p-2">
+                                        <button class=" bg-[#3074F0] text-white  p-2 rounded">Add to cart </button>
+                                        <button class="   bg-white  p-2 rounded"> <i
+                                                class="fa-regular fa-eye"></i></button>
+                                        <button class="   bg-white  p-2 rounded"> <i
+                                                class="fa-regular fa-heart"></i></button>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/26/0627132/1.jpg?7855"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">H200 STER0 Headset</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$349.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/62/0920602/1.jpg?0004"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/3385232/1.jpg?4697"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Fujifilm X99 Mirrorless digital camera
+                            </div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="grid grid-cols-4 gap-4 ">
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8j5dDVfcC3MNJ4lxN-RhLeP0CHnPftsfDZw&s"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8j5dDVfcC3MNJ4lxN-RhLeP0CHnPftsfDZw&s"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8j5dDVfcC3MNJ4lxN-RhLeP0CHnPftsfDZw&s"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+                        <div>
+                            <div class="bg-[#FAF4F1] border-2  p-3 flex w-60  rounded-lg ">
+                                <div>
+                                    <img class="h-auto max-w-full rounded-lg"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8j5dDVfcC3MNJ4lxN-RhLeP0CHnPftsfDZw&s"
+                                        alt="">
+
+
+
+                                </div>
+                            </div>
+                            <div class="font-slate-200 text-[#9BA1A9] text-sm">Optical wireless mouse</div>
+                            <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i> <i class="fa-solid fa-star" style="color: #FFD673;"></i> <i
+                                class="fa-solid fa-star" style="color: #FFD673;"></i> <i class="fa-solid fa-star"
+                                style="color: #FFD673;"></i>
+                            <p class="font-bold">$129.00</p>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div>
+                    <div class="flex justify-between py-10">
+                        <div class="text-2xl font-bold text-[#222429]"> New Arrivals</div>
+
+                        <div class="">
+                            <div>
+                                <button class=" bg-[#3074F0] text-white  py-3 px-6 rounded">view all products
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="flex  ">
+                            <div class="text-xl font-bold text-[#222429]  bg-[#F5F5F5] py-3 px-5 pb-0 mx-10"> Samsung
+                                galaxy note20 <br>Ultra 5G
+                                <div>
+                                    <button class=" bg-[#3074F0] text-white font-thin py-1 px-4  my-5 rounded">view all
+                                        products
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="m-8 mb-0">
+                                    <img src="./Images/samsong.png" alt="Phone image" width="250px">
+                                </div>
+
+                            </div>
+                            <div>
+                                <div class="grid grid-rows-3 gap-2">
+                                    <div class=" rounded-lg flex bg-white border border-grey-500 w-96 ">
+
+                                        <img class="max-w-full rounded-lg bg-[#FAF4F1] my-5 mx-5  p-5 w-20 h-24"
+                                            src="Images/pink.png" alt="">
+
+
+
+                                        <div class="text-[#9BA1A9] font-bold text-xs  m-5 mb-5 "> Longitech G320 gaming
+                                            headphone <br>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <h6 class="font-bold text-black text-sm py-5">$399.00</h6>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="rounded-lg flex  bg-white border border-grey-500  w-96">
+
+                                        <img class=" max-w-full rounded-lg  bg-[#FAF4F1] my-5 mx-5 p-5  w-20 h-24"
+                                            src="Images/pink.png" alt="">
+
+                                        <div class="text-[#9BA1A9] font-bold text-xs  m-5 mb-5 "> Longitech G320 gaming
+                                            headphone <br>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <h6 class="font-bold text-black text-sm py-5">$399.00</h6>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class=" rounded-lg flex  bg-white border border-grey-500   w-96">
+
+                                        <img class=" max-w-full rounded-lg  bg-[#FAF4F1]  my-3 mx-5 p-5  w-20 h-24"
+                                            src="Images/pink.png" alt="">
+
+                                        <div class="text-[#9BA1A9] font-bold text-xs  m-5 mb-5 "> Longitech G320 gaming
+                                            headphone <br>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <h6 class="font-bold text-black text-sm py-5">$399.00</h6>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div></div>
+                </div>
+
+                <section class="bg-[#F7C9D3] pt-24 px-24  pb-0  m-10">
+                    <div class="flex flex-row justify-between">
+                        <div class="text-[#FD769B] text-sm font-bold py-3">
+                            <i class="fa-regular fa-star" style="color: #FF3B72;"></i> Top products of the Month
+                            <div class="text-3xl  text-black py-3">
+                                Up to 40% off on Digital items
+                            </div>
+                            <div class="text-[#949BA2] text-sm font-bold py-3">
+                                The exact percentage of the discount may vary depending on the<br> volume control,a
+                                flexible
+                                arm,adjustable headband.
+
+                            </div>
+
+                            <div>
+                                <button class=" bg-[#3074F0] text-white font-bold py-3 px-6 rounded">Shop now </button>
+                            </div>
+                        </div>
+
+
+
+                        <div class=" mr-16">
+                            <img src="./Images/whhhhh.png" alt="head set image" width="250px">
+                        </div>
+                    </div>
+
+
+                
+
+                
+
+        </main>
+        <section class="bg-[#FAF4F1]  py-16">
+            <div class="p-10 w-20 bg-white py-30 px-30  m-6">
+                <i class="fa-solid fa-truck-fast " style="color: #e53e9f;"></i>
+                free
+                <div></div>
+            </div>
+            <div></div>
+            <div></div>
+
+        </section>
+
+
+        <footer class="bg-white dark:bg-gray-900">
+            <div class="flex justify-between px-50">
+                <div class="text-[#FD769B] text-sm font-bold py-32 px-56">
+                    
+                    <div class="text-3xl font-bold text-black ">
+                        Join us and get updates
+                    </div>
+                    <div class="text-[#949BA2] text-sm from-neutral-50 py-3">
+                       sign up for exclusive offers ,latest news and update
+                    </div>
+                   
+                   
+                </div>
+                <div class="py-32 mx-32 px-10 *:z">
+                    <form action="https://app.convertkit.com/forms/4692392/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="4692392" data-uid="344e3b5c48" data-format="inline" data-version="5" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;fathom&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null,&quot;sparkloop&quot;:null,&quot;googletagmanager&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}" min-width="400 500 600 700">
+                        <div data-style="clean" class="flex items-end mb-3">
+                            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+                            <div data-element="fields" data-stacked="false" class="flex items-center w-full max-w-md mb-3 seva-fields formkit-fields">
+                                <div class="relative w-full mr-3 formkit-field">
+                                    <label for="member_email" class="hidden block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                                    <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+                                      <svg class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                                        <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"></path>
+                                        <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"></path>
+                                      </svg>
+                                    </div>
+                                    <input id="member_email" class="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="email_address" aria-label="Email Address" placeholder="Your email address..." required="" type="email">
+                                </div>
+                                <button data-element="submit" class="formkit-submit">
+                                    <div class="formkit-spinner">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <span class="px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg cursor-pointer hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+               
+
+
+
+               
+            </div>
+            <hr>
+            <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div class="md:flex md:justify-between">
+                  <div class="mb-6 md:mb-0">
+                      <a href="https://flowbite.com/" class="flex items-center">
+                          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
+                          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                      </a>
+                  </div>
+                  <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                      <div>
+                          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                              <li class="mb-4">
+                                  <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                              </li>
+                              <li>
+                                  <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                              <li class="mb-4">
+                                  <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                              </li>
+                              <li>
+                                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                              <li class="mb-4">
+                                  <a href="#" class="hover:underline">Privacy Policy</a>
+                              </li>
+                              <li>
+                                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+              <div class="sm:flex sm:items-center sm:justify-between">
+                  <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                  </span>
+                  <div class="flex mt-4 sm:justify-center sm:mt-0">
+                      <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                                <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                            </svg>
+                          <span class="sr-only">Facebook page</span>
+                      </a>
+                      <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                            </svg>
+                          <span class="sr-only">Discord community</span>
+                      </a>
+                      <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                            <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                        </svg>
+                          <span class="sr-only">Twitter page</span>
+                      </a>
+                      <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                          </svg>
+                          <span class="sr-only">GitHub account</span>
+                      </a>
+                      <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+                        </svg>
+                          <span class="sr-only">Dribbble account</span>
+                      </a>
+                  </div>
+              </div>
+            </div>
+        </footer>
+    </div>
+
+    
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+
+
+    </div>
+
+</body>
+
+</html>
